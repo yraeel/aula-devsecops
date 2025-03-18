@@ -11,7 +11,7 @@ if __name__ == '__main__':
   parser.add_argument("-a", "--a", type=int, required=True)
   parser.add_argument("-b", "--b", type=int, required=True)
 
-args = parser.parser_args()
+args = parser.parse_args()
 
 a=args.a
 b=args.b
