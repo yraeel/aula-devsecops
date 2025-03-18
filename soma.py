@@ -5,7 +5,7 @@ if __name__ == '__main__':
 
   parser = argparse.ArgumentParser(
     usage='%(prog)s --a a--b b',
-    formatter_class=argparser.RawDescriptionHelpFormatter
+    formatter_class=argparse.RawDescriptionHelpFormatter
   )
 
   parser.add_argument("-a", "--a", type=str, required=True)
