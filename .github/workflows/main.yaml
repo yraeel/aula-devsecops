@@ -35,7 +35,9 @@ jobs:
 
       - name: Test
         run: echo "Test"
-
+        with:
+          a: ${{ secrets.SECRET_A }}
+          b: 4
   deploy:
 
     runs-on: ubuntu-latest
