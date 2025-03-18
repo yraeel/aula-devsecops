@@ -32,12 +32,15 @@ jobs:
     needs: build
 
     steps:
-
+        
       - name: Test
-        run: echo "Test"
+        uses: yraeel/aula-devsecops@main
         with:
-          a: ${{ secrets.SECRET_A }}
-          b: 4
+          a: 1
+          b: 2
+          
+        
+        
   deploy:
 
     runs-on: ubuntu-latest
