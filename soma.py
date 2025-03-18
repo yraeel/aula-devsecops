@@ -3,7 +3,7 @@ import argparse
 
 if __name__ == '__main__':
 
-  parser = argparser.ArgumentParser(
+  parser = argparse.ArgumentParser(
     usage='%(prog)s --a a--b b',
     formatter_class=argparser.RawDescriptionHelpFormatter
   )
