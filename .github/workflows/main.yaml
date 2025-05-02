@@ -15,6 +15,8 @@ on:
   # workflow_dispatch:
 
 
+
+# criação dos steps da pipeline
 jobs:
   
   build:
